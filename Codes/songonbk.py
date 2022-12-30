@@ -55,7 +55,7 @@ def loopmusic():
         video.audio=audio
         mv.write_vid(video,tittle())
             #return
-def tittle():
+def tittle(): 
     global vid_index
     tittle_must_have=tittle_must_1+" "+str(vid_index)+" "+tittle_must_2
     vid_index+=1
